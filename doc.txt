@@ -1,0 +1,26 @@
+marines = IYfSydOOUi7TWcxCbqe0
+	guerra ao terror
+	six contra todos
+	predator arena six
+
+
+will = KSWl62kljCyzhmg5VDos
+	ct fantasma top 100
+	contra os inimigos no ct
+	jogo livre
+
+tank = ZOILxeVeDWrIQKYOWgcZ
+	b13 avante
+	jogo nossa b13
+	corrida contra o tempo
+
+
+  evento:
+	  nomeEvento
+	  nomeOrganizador
+	  nomeCampo
+	  numeroOperadores
+	  organizadorID
+
+
+https://www.youtube.com/watch?v=ey4k6mW9ds4

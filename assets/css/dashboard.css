@@ -1,0 +1,64 @@
+
+
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: cadetblue;
+}
+
+.wrap{
+  display: flex;
+}
+
+.spaceForm{
+  background-color: aqua;
+  padding: 5px;
+  width: 45%;
+}
+
+#cadastrarEventoForm{
+  width: 70%;
+  margin: 0 auto;
+  background-color: blueviolet;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+
+#cadastrarEventoForm label input{
+  width: 100%;
+  height: 50px;
+  margin: 10px 0 20px 0;
+}
+
+
+
+.spaceListData{
+  background-color: blueviolet;
+  padding: 5px;
+  width: 55%;
+}
+
+.resultadosListagem{
+  width: 100%;
+  height: 50px;
+  line-height: 35px;
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 5px;
+  display: block;
+
+  border-radius: 3px;
+}
+
+.editar{
+  padding: 3px;
+  background-color: coral;
+}
+.deletar{
+  padding: 3px;
+  background-color: red;
+  color: #fff;
+}

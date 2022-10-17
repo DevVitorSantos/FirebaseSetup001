@@ -1,0 +1,26 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root {
+  --Black: #192A3E;
+  --TableBlack: #323C47;
+  --TableGray: #e0e0e2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* ================  */
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="../assets/js/dashboard.js" type="module"  defer></script>
+  <link rel="stylesheet" href="../assets/css/dashboard.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header"> Toma o header</div>
+  <div class="wrap">
+
+    <div class="spaceForm">
+
+      <form id="cadastrarEventoForm" action="" >
+        <label for="nomeCampo"> Nome do Campo
+          <input type="text" name="" id="nomeCampo" placeholder="EX: Campo do ...">
+        </label>
+
+        <label for="nomeEvento"> Nome do Evento
+          <input type="text" name="" id="nomeEvento" placeholder="Como se chamará o evento ? ">
+        </label>
+
+        <label for="nomeOrganizador"> Nome do Organizador
+          <input type="text" name="" id="nomeOrganizador" placeholder="Quem é o representante deste evento?">
+        </label>
+
+        <label for="numeroOperadores"> Operadores
+          <input type="text" name="" id="numeroOperadores" placeholder="Número Máximo de operadores no game">
+        </label>
+        
+
+
+        <button id="cadastrar" class="focus:ring-2 
+          focus:ring-offset-2 
+          focus:ring-indigo-700 
+          text-sm font-semibold 
+          leading-none text-white 
+          focus:outline-none 
+          bg-indigo-700 border 
+          rounded hover:bg-indigo-600
+          py-4 w-full">Criar Evento 
+        </button>
+      </form>
+      
+    </div>
+    
+    
+    <div class="spaceListData">
+      <button id="listar" class="focus:ring-2 
+          focus:ring-offset-2 
+          focus:ring-indigo-700 
+          text-sm font-semibold 
+          leading-none text-white 
+          focus:outline-none 
+          bg-indigo-700 border 
+          rounded hover:bg-indigo-600
+          py-4 w-full">Listar Games
+        </button>
+
+        <div id="listagemGames">
+
+        </div>
+    </div>
+  </div>
+  
+  <div class="footer"></div>
+
+
+</body>
+</html>
